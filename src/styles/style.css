@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(../assets/BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.time--container {
+  margin: 0 auto;
+  width: 30%;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  color: goldenrod;
+  box-shadow: 1px 1px 11px 3px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+.time--container h1 {
+  color: white;
+}
+.time--container .time--values {
+  display: flex;
+}
+.time--container .time--values h3 {
+  font-size: 6em;
+}/*# sourceMappingURL=style.css.map */

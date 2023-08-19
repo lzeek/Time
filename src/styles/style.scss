@@ -1,0 +1,33 @@
+$clockFont: 'Orbitron', sans-serif;
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../assets/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time--container{
+    margin:auto 0;
+    width: 30%;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    box-shadow: 1px 1px 11px 3px rgb(0,0,0, 0.6);
+    background-color: rgb(0,0,0, 0.6) ;
+    padding: 20px;
+    h1{
+        color: white;
+    }
+    .time--values{
+        display: flex;
+        h3{
+            font-size: 6em;
+        }
+    }
+    
+}
